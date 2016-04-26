@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need it?
 
 When you initialize an empty repository, it creates a git directory with subdirectories for objects, refs/heads, refs/tags, & template files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area holds the file(s) prior to going to the working directory as part of the commit. This is valuable in the sense that you may decide to change the files for commit
+or make any addition changes to the chosen file(s) before considering it as a commit.
