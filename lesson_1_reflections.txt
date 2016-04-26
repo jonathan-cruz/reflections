@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was nice seeing the old and new versions of the file to compare the changes.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having the entire history of a file will allow you to see the changes made to the file, whether good or bad, to determine the best practices going forward when
+using this file, as well as using this file for other applications.
+
+What do you think the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros of manually choosing to create a commit are that you are able to view each recorded change to the application/file. If you create an enormous amount of changes between each version
+of the file, it may be harder and more time-consuming to find the changes made between files.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I believe this to be the case because one commit to a certain file can have effects on other related files that work with it. Changing a variable name in one file would have to be changed
+in other related files.
+
+How can you use the command git log and git diff to view the history of the files?
+
+To do this, you first clone the repository by typing the following:
+
+: git clone URL
+
+Then to view the differences between each commit, type the following:
+
+: git diff 1stID 2ndID
+
+Press "q" to quit scrolling
+
+How might using version control make you more confident to make changes that could break something?
+
+By creating a log of all the changes you've made to the program, you can track specifically when and where the "break" code is located.
+
+Now that you have your workspace set up. what do you want to try using Git for?
+
+I would like to use Git to help maintain status updates when creating new Javascript API web applications for EPA personnel to use.
