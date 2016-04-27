@@ -6,3 +6,19 @@ How is the staging area different from the working directory and the repository?
 
 Staging area holds the file(s) prior to going to the working directory as part of the commit. This is valuable in the sense that you may decide to change the files for commit
 or make any addition changes to the chosen file(s) before considering it as a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can make sure by running the "git diff" command to compare what is in the working directory vs what you have in the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It would be helpful in keeping your history organized if there is a big fix needed.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps visualize the branch structure by seeing the changes made (commits) within each branch. You can also see which commits are separated from the branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Unfortunately, the merge command did not work. I was not able to replicate the origninal games.js file to where it would be functional during the merge exercise.
